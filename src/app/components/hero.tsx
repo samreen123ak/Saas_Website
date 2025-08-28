@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
 
         {/* Image mostly on blue */}
         <img
-          src="https://images2.boardingschoolreview.com/photo/593/IMG-Academy-6r5kz9j4u144kso44sw8800k0-1122.jpg"
+          src="/assets/heroimg.svg"
           alt="Hero"
           className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-96 w-96 object-cover rounded-lg shadow-lg z-10"
         />
