@@ -9,21 +9,21 @@ export default function AvatarTextSection() {
           <img
             src="https://media.istockphoto.com/id/1303206558/photo/headshot-portrait-of-smiling-businessman-talk-on-video-call.jpg?s=612x612&w=0&k=20&c=hMJhVHKeTIznZgOKhtlPQEdZqb0lJ5Nekz1A9f8sPV8="
             alt="User1"
-            width={24}
+            width={32}
             height={32}
             className="rounded-full border-2 border-white"
           />
           <img
             src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
             alt="User2"
-            width={24}
+            width={32}
             height={32}
             className="rounded-full border-2 border-white"
           />
           <img
             src="https://media.istockphoto.com/id/1285124274/photo/middle-age-man-portrait.jpg?s=612x612&w=0&k=20&c=D14m64UChVZyRhAr6MJW3guo7MKQbKvgNVdKmsgQ_1g="
             alt="User3"
-            width={24}
+            width={32}
             height={32}
             className="rounded-full border-2 border-white"
           />
