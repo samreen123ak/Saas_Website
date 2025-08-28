@@ -55,9 +55,9 @@ const HeaderImage: React.FC = () => {
         />
 
         {/* Image */}
-        <div className="max-w-5xl w-full relative">
+        <div className="max-w-3xl w-full relative">
           <img
-            src="https://images2.boardingschoolreview.com/photo/593/IMG-Academy-6r5kz9j4u144kso44sw8800k0-1122.jpg"
+            src="/assets/heroimg.svg"
             alt="TrendTide Analytics Dashboard"
             width={1000}
             height={800}

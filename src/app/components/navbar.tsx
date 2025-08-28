@@ -5,31 +5,43 @@ import React from "react";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-transparent  px-6 py-4 flex items-center justify-between">
+    <nav className="bg-transparent  px-3 py-2 flex items-center justify-between">
       {/* left: Logo */}
       <div>
-        <h1 className="font-bold text-primary">CleaningWeb</h1>
+        <img src="/assets/logo.png" alt="" className="h-30 w-30 " />
       </div>
 
       {/* Middle: Navigation Links */}
       <ul className="flex space-x-8">
         <li>
-          <a href="#how-it-works" className="text-black hover:text-white">
+          <a
+            href="#how-it-works"
+            className="text-black hover:text-primary font-bold"
+          >
             How it works
           </a>
         </li>
         <li>
-          <a href="#about-us" className="text-black hover:text-white">
+          <a
+            href="#about-us"
+            className="text-black hover:text-primary font-bold"
+          >
             About us
           </a>
         </li>
         <li>
-          <a href="#features" className="text-black hover:text-white">
+          <a
+            href="#features"
+            className="text-black hover:text-primary font-bold"
+          >
             Features
           </a>
         </li>
         <li>
-          <a href="#about-us-2" className="text-black hover:text-white">
+          <a
+            href="#about-us-2"
+            className="text-black hover:text-primary font-bold"
+          >
             About us
           </a>
         </li>

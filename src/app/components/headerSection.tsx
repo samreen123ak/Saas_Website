@@ -6,7 +6,7 @@ export default function HeaderSection() {
   return (
     <section className="relative">
       {/* Top Blue Section */}
-      <div className="w-full bg-gradient-to-b from-[#eef3fc] to-[#bad9fe] pb-[400px]">
+      <div className="w-full bg-gradient-to-b from-blue-50 to-blue-200 pb-[400px]">
         <Navbar />
         <HeroSection />
       </div>
