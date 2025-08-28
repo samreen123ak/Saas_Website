@@ -4,7 +4,10 @@ import React from "react";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative w-full flex flex-col items-center">
+    <section
+      className="relative w-full flex flex-col items-center "
+      data-aos="fade-up"
+    >
       {/* Top Gradient Section */}
       <div className="w-full flex flex-col items-center px-4  relative z-0">
         <button className="bg-white text-black text-xs font-bold px-4 py-2 rounded-full shadow mb-8 hover:shadow-lg transition">

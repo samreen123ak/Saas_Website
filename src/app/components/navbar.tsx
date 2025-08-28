@@ -5,7 +5,10 @@ import React from "react";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-transparent  pr-5  flex items-center justify-between">
+    <nav
+      className="bg-transparent  pr-5  flex items-center justify-between  "
+      data-aos="fade-down"
+    >
       {/* left: Logo */}
       <div>
         <img src="/assets/logo.png" alt="" className="h-24 w-24 " />
