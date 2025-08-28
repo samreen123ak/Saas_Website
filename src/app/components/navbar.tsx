@@ -5,10 +5,10 @@ import React from "react";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-transparent  px-3 py-2 flex items-center justify-between">
+    <nav className="bg-transparent  pr-5  flex items-center justify-between">
       {/* left: Logo */}
       <div>
-        <img src="/assets/logo.png" alt="" className="h-30 w-30 " />
+        <img src="/assets/logo.png" alt="" className="h-24 w-24 " />
       </div>
 
       {/* Middle: Navigation Links */}
