@@ -11,11 +11,11 @@ import {
   FaBolt,
 } from "react-icons/fa";
 
-const HeroColumn: React.FC = () => {
+const HeroSection: React.FC = () => {
   return (
     <section className="relative w-full flex flex-col items-center">
       {/* Top Gradient Section */}
-      <div className="w-full bg-gradient-to-b from-[#4F71E0] to-[#1D4ED8] flex flex-col items-center px-4 py-20 relative z-0">
+      <div className="w-full flex flex-col items-center px-4 py-20 relative z-0">
         {/* White Button */}
         <button className="bg-white text-blue-700 px-6 py-2 rounded-lg shadow mb-8 hover:shadow-lg transition">
           White Button
@@ -61,4 +61,4 @@ const HeroColumn: React.FC = () => {
   );
 };
 
-export default HeroColumn;
+export default HeroSection;
