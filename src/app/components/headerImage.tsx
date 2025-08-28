@@ -27,7 +27,7 @@ const HeaderImage: React.FC = () => {
               ig
             </div>
           }
-          className="top-1/3 left-6"
+          className="top-[27%] left-6"
         />
         <SocialIcon
           icon={
@@ -35,7 +35,7 @@ const HeaderImage: React.FC = () => {
               in
             </div>
           }
-          className="top-1/3 right-6"
+          className="top-[27%] right-6"
         />
         <SocialIcon
           icon={
@@ -43,7 +43,7 @@ const HeaderImage: React.FC = () => {
               tt
             </div>
           }
-          className="bottom-1/3 left-6"
+          className="bottom-[40%] left-6"
         />
         <SocialIcon
           icon={
@@ -51,7 +51,7 @@ const HeaderImage: React.FC = () => {
               yt
             </div>
           }
-          className="bottom-1/3 right-6"
+          className="bottom-[40%] right-6"
         />
 
         {/* Image */}
