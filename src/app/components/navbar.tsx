@@ -14,22 +14,22 @@ const Navbar: React.FC = () => {
       {/* Middle: Navigation Links */}
       <ul className="flex space-x-8">
         <li>
-          <a href="#how-it-works" className="text-black hover:text-primary">
+          <a href="#how-it-works" className="text-black hover:text-white">
             How it works
           </a>
         </li>
         <li>
-          <a href="#about-us" className="text-black hover:text-primary">
+          <a href="#about-us" className="text-black hover:text-white">
             About us
           </a>
         </li>
         <li>
-          <a href="#features" className="text-black hover:text-primary">
+          <a href="#features" className="text-black hover:text-white">
             Features
           </a>
         </li>
         <li>
-          <a href="#about-us-2" className="text-black hover:text-primary">
+          <a href="#about-us-2" className="text-black hover:text-white">
             About us
           </a>
         </li>
