@@ -11,18 +11,18 @@ export default function AvatarTextSection() {
     text.split(" ").map((word, index) => (
       <motion.span
         key={index}
-        className="inline-block relative font-extralight"
+        className="inline-block relative font-medium"
         initial={{ scale: 1, color: "#9CA3AF" }}
-        whileInView={{ scale: 1.1, color: "#111827" }}
+        whileInView={{ scale: 1, color: "#000000" }}
         viewport={{ once: true, amount: 0.5 }} // triggers when 50% of word is in view, only once
         transition={{
           delay: index * 0.1,
-          duration: 0.5,
+          duration: 0.3,
           type: "spring",
-          stiffness: 100,
-          damping: 15,
+          stiffness: 200, // faster spring
+          damping: 25,
         }}
-        style={{ marginRight: "1.5rem" }}
+        style={{ marginRight: "1.8rem" }}
       >
         {word}
       </motion.span>
