@@ -11,9 +11,9 @@ export default function AvatarTextSection() {
     text.split(" ").map((word, index) => (
       <motion.span
         key={index}
-        className="inline-block relative font-medium"
-        initial={{ scale: 1, color: "#9CA3AF" }}
-        whileInView={{ scale: 1, color: "#000000" }}
+        className=" relative font-bold text-3xl leading-12 "
+        initial={{ color: "#9CA3AF" }}
+        whileInView={{ color: "#000000" }}
         viewport={{ once: true, amount: 0.5 }} // triggers when 50% of word is in view, only once
         transition={{
           delay: index * 0.1,
@@ -29,7 +29,7 @@ export default function AvatarTextSection() {
     ));
 
   return (
-    <div className="flex justify-center my-5">
+    <div className="flex justify-center ">
       {" "}
       {/* add vertical spacing to test scroll */}
       <p className="max-w-6xl text-gray-700 text-4xl leading-relaxed flex flex-wrap">
