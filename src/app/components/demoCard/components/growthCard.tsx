@@ -26,7 +26,7 @@ const GrowthCard = () => {
       {/* Column 1 */}
       <div className="flex-1 flex flex-col items-start gap-3 p-10">
         {/* White Button */}
-        <button className="bg-white text-black font-bold px-6 py-2 text-xs rounded-full shadow-md hover:bg-gray-100 transition">
+        <button className="bg-white text-black font-bold px-6 py-2 mb-5 text-xs rounded-full shadow-md hover:bg-gray-100 transition">
           Know Your Followers Better
         </button>
 
