@@ -2,6 +2,24 @@
 
 import React from "react";
 import { FaUser, FaHeart } from "react-icons/fa";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+
+const data = [
+  { name: "Jan", uv: 400 },
+  { name: "Feb", uv: 300 },
+  { name: "Mar", uv: 600 },
+  { name: "Apr", uv: 200 },
+  { name: "may", uv: 200 },
+  { name: "jun", uv: 700 },
+  { name: "july", uv: 500 },
+];
 
 const EngagmentCard = () => {
   return (
@@ -64,11 +82,16 @@ const EngagmentCard = () => {
             </div>
           </div>
         </div>
-        <img
-          src="https://cdn1.byjus.com/wp-content/uploads/2022/06/bar-graph-questions-2.png"
-          alt="Line Graph"
-          className="w-[500px] h-auto max-h-96 object-cover rounded-lg shadow-lg"
-        />
+        <div className="w-full h-64 bg-white rounded-xl shadow p-4">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={data}>
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Tooltip />
+              <Bar dataKey="uv" fill="#ea580c" animationDuration={3000} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
         {/* OR if you want a video, replace <img> with <video> */}
 
         {/* <video

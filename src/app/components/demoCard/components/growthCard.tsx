@@ -1,6 +1,24 @@
 "use client";
 
 import React from "react";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+
+const data = [
+  { name: "Jan", value: 120 },
+  { name: "Feb", value: 90 },
+  { name: "Mar", value: 160 },
+  { name: "Apr", value: 110 },
+  { name: "May", value: 180 },
+  { name: "Jun", value: 140 },
+];
 
 const GrowthCard = () => {
   return (
@@ -33,20 +51,30 @@ const GrowthCard = () => {
       {/* Column 2 */}
       <div className="flex-1 flex items-center justify-center pr-10">
         {/* Replace src with your graph image or video */}
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/55b6a6dce4b089e11621d3ed/1585088328568-N71DZL4VV1CANX2G63EI/dailyvalgood.png"
-          alt="Line Graph"
-          className="w-full h-auto max-h-96 object-cover rounded-lg shadow-lg"
-        />
-        {/* OR if you want a video, replace <img> with <video> */}
-
-        {/* <video
-          src="/graph.mp4"
-          autoPlay
-          loop
-          muted
-          className="w-full h-auto max-h-96 object-contain rounded-lg shadow-lg"
-        /> */}
+        <div className="w-full h-64 bg-white rounded-xl shadow p-4">
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart
+              data={data}
+              margin={{ top: 10, right: 24, left: 0, bottom: 0 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Tooltip />
+              <Line
+                type="monotone"
+                dataKey="value"
+                stroke="#ea580c" // Tailwind orange-600
+                strokeWidth={3}
+                dot={{ r: 3 }}
+                activeDot={{ r: 6 }}
+                animationDuration={3000}
+                animationBegin={0}
+                isAnimationActive
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
       </div>
     </div>
   );
