@@ -42,10 +42,10 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <a
-            href="#about-us-2"
+            href="#pricing"
             className="text-black hover:text-primary font-bold"
           >
-            About us
+            Pricing
           </a>
         </li>
       </ul>

@@ -50,7 +50,7 @@ const GrowthCard = () => {
 
       {/* Column 2 */}
       <div className="flex-1 flex items-center justify-center pr-10">
-        {/* Replace src with your graph image or video */}
+        {/* graph */}
         <div className="w-full h-64 bg-white rounded-xl shadow p-4">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart
@@ -64,7 +64,7 @@ const GrowthCard = () => {
               <Line
                 type="monotone"
                 dataKey="value"
-                stroke="#ea580c" // Tailwind orange-600
+                stroke="#ea580c"
                 strokeWidth={3}
                 dot={{ r: 3 }}
                 activeDot={{ r: 6 }}

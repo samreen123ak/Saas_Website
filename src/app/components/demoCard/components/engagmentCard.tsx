@@ -92,15 +92,6 @@ const EngagmentCard = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-        {/* OR if you want a video, replace <img> with <video> */}
-
-        {/* <video
-          src="/graph.mp4"
-          autoPlay
-          loop
-          muted
-          className="w-full h-auto max-h-96 object-contain rounded-lg shadow-lg"
-        /> */}
       </div>
     </div>
   );

@@ -14,12 +14,12 @@ export default function AvatarTextSection() {
         className=" relative font-bold text-3xl leading-12 "
         initial={{ color: "#9CA3AF" }}
         whileInView={{ color: "#000000" }}
-        viewport={{ once: true, amount: 0.5 }} // triggers when 50% of word is in view, only once
+        viewport={{ once: true, amount: 0.5 }}
         transition={{
           delay: index * 0.1,
           duration: 0.3,
           type: "spring",
-          stiffness: 200, // faster spring
+          stiffness: 200,
           damping: 25,
         }}
         style={{ marginRight: "1.8rem" }}
@@ -39,22 +39,16 @@ export default function AvatarTextSection() {
           <img
             src="https://media.istockphoto.com/id/1303206558/photo/headshot-portrait-of-smiling-businessman-talk-on-video-call.jpg?s=612x612&w=0&k=20&c=hMJhVHKeTIznZgOKhtlPQEdZqb0lJ5Nekz1A9f8sPV8="
             alt="User1"
-            // width={32}
-            // height={32}
             className="rounded-full border-2 border-white h-10 w-10"
           />
           <img
             src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
             alt="User2"
-            // width={32}
-            // height={32}
             className="rounded-full border-2 border-white h-10 w-10"
           />
           <img
             src="https://media.istockphoto.com/id/1285124274/photo/middle-age-man-portrait.jpg?s=612x612&w=0&k=20&c=D14m64UChVZyRhAr6MJW3guo7MKQbKvgNVdKmsgQ_1g="
             alt="User3"
-            // width={32}
-            // height={32}
             className="rounded-full border-2 border-white h-10 w-10"
           />
         </span>

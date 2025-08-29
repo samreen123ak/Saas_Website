@@ -50,7 +50,7 @@ const HeaderImage: React.FC = () => {
           animation="fade-up"
         />
 
-        {/* Image with fade-up */}
+        {/* Image */}
         <div
           className="max-w-3xl w-full mt-15 relative rounded"
           data-aos="fade-up"
@@ -82,7 +82,7 @@ const SocialIcon = ({
   animation?: string;
 }) => (
   <div
-    data-aos={animation} // 👈 This triggers animation
+    data-aos={animation}
     className={`absolute w-14 h-14 bg-white rounded-2xl shadow-lg flex items-center justify-center hover:scale-105 transition-transform cursor-pointer ${className}`}
   >
     <img src={src} alt={alt} className={`object-contain ${imgClassName}`} />

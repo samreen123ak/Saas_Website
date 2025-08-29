@@ -19,7 +19,7 @@ export default function DemoCard() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % cards.length);
-    }, 3000); // each card shows for 3s
+    }, 3000);
     return () => clearInterval(timer);
   }, [cards.length]);
 
@@ -31,7 +31,7 @@ export default function DemoCard() {
           className="absolute top-0 left-0 w-full"
           initial={{ y: "100%", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          exit={{ opacity: 0.3 }} // background fades but still visible
+          exit={{ opacity: 0.3 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
           {cards[index].component}
