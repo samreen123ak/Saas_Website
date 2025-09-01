@@ -24,7 +24,10 @@ export default function DemoCard() {
   }, [cards.length]);
 
   return (
-    <div className="relative w-full h-[600px] mb-10 overflow-hidden ">
+    <div
+      id="about-us"
+      className="relative w-full h-[600px] mb-10 overflow-hidden "
+    >
       <div className="relative w-full h-full   shadow-lg bg-white">
         <AnimatePresence>
           <motion.div

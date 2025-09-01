@@ -7,7 +7,7 @@ import { RiShoppingBag2Fill } from "react-icons/ri";
 
 const FeaturesSection = () => {
   return (
-    <div className="p-10  ">
+    <div id="features" className="p-10  " data-aos="fade-up">
       {/* Button */}
       <div className="text-center mb-6">
         <button className="bg-white text-gray-800 font-semibold py-2 px-6 rounded-full shadow hover:bg-gray-100 transition">

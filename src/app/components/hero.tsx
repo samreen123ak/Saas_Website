@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
           <br /> and potential clients, all in one place
         </p>
 
-        <button className="bg-primary text-white px-6 py-3 rounded-full mb-12 hover:bg-blue-800 transition">
+        <button className="bg-primary text-white px-6 py-3 rounded-full mb-12 cursor-pointer transition">
           Start Your Free Trial
         </button>
       </div>

@@ -5,7 +5,10 @@ import Image from "next/image";
 
 const GrowSection: React.FC = () => {
   return (
-    <section className="bg-gradient-to-b from-blue-100 to-blue-50 py-20 m-12">
+    <section
+      className="bg-gradient-to-b from-blue-100 to-blue-50 pt-10 m-12"
+      data-aos="fade-up"
+    >
       <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center">
         {/* Small White Button */}
         <button className="bg-white text-black text-xs font-bold px-4 py-2 rounded-full shadow mb-8 hover:shadow-lg transition">

@@ -2,6 +2,7 @@ import AvatarTextSection from "./components/avtartextSection";
 import CustomerSection from "./components/customerSection";
 import DemoCard from "./components/demoCard/page";
 import FeaturesSection from "./components/featureSection";
+import Footer from "./components/footerSection";
 import GrowSection from "./components/growSection";
 
 import HeaderSection from "./components/headerSection";
@@ -19,6 +20,7 @@ export default function Home() {
       <CustomerSection />
       <PricingSection />
       <GrowSection />
+      <Footer />
     </main>
   );
 }
