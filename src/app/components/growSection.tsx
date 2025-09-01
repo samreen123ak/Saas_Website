@@ -29,7 +29,7 @@ const GrowSection: React.FC = () => {
             alt="Grow illustration"
             width={1000} // bigger width
             height={800} // bigger height
-            className="object-contain -mb-50" // 👈 negative margin pushes half outside
+            className="object-contain -mb-50" //  negative margin pushes half outside
           />
         </div>
       </div>
