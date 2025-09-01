@@ -4,7 +4,7 @@ import React from "react";
 
 const MonetizationCard = () => {
   return (
-    <div className="m-12 w-auto   h-screen bg-gradient-to-b from-pink-100 to-pink-50 flex items-center justify-center rounded-2xl  ">
+    <div className="m-12 w-auto   h-screen bg-gradient-to-b from-pink-100 to-pink-50 flex items-center justify-center rounded  ">
       {/* Column 1 */}
       <div className="flex-1 flex flex-col items-start gap-6 p-10">
         {/* White Button */}

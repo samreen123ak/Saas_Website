@@ -24,19 +24,21 @@ export default function DemoCard() {
   }, [cards.length]);
 
   return (
-    <div className="relative w-full  h-[700px] mb-20">
-      <AnimatePresence>
-        <motion.div
-          key={cards[index].id}
-          className="absolute top-0 left-0 w-full"
-          initial={{ y: "100%", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          exit={{ opacity: 0.3 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-        >
-          {cards[index].component}
-        </motion.div>
-      </AnimatePresence>
+    <div className="relative w-full h-[600px] mb-10 overflow-hidden ">
+      <div className="relative w-full h-full   shadow-lg bg-white">
+        <AnimatePresence>
+          <motion.div
+            key={cards[index].id}
+            className="absolute top-0 left-0 w-full h-full"
+            initial={{ y: "100%", opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+          >
+            {cards[index].component}
+          </motion.div>
+        </AnimatePresence>
+      </div>
     </div>
   );
 }

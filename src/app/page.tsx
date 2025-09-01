@@ -1,4 +1,5 @@
 import AvatarTextSection from "./components/avtartextSection";
+import CustomerSection from "./components/customerSection";
 import DemoCard from "./components/demoCard/page";
 import FeaturesSection from "./components/featureSection";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <AvatarTextSection />
       <DemoCard />
       <FeaturesSection />
+      <CustomerSection />
     </main>
   );
 }
