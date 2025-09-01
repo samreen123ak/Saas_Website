@@ -24,7 +24,7 @@ export default function DemoCard() {
   }, [cards.length]);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full  h-[700px] mb-20">
       <AnimatePresence>
         <motion.div
           key={cards[index].id}
