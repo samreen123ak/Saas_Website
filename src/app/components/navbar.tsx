@@ -2,6 +2,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
@@ -17,36 +18,41 @@ const Navbar: React.FC = () => {
       {/* Middle: Navigation Links */}
       <ul className="flex space-x-8">
         <li>
-          <a
-            href="#how-it-works"
-            className="text-black hover:text-primary font-bold"
-          >
-            How it works
-          </a>
+          <Link href="/" className="text-black hover:text-primary font-bold">
+            Home
+          </Link>
         </li>
         <li>
-          <a
-            href="#about-us"
-            className="text-black hover:text-primary font-bold"
-          >
-            About us
-          </a>
-        </li>
-        <li>
-          <a
-            href="#features"
-            className="text-black hover:text-primary font-bold"
-          >
-            Features
-          </a>
-        </li>
-        <li>
-          <a
-            href="#pricing"
+          <Link
+            href="/pricing"
             className="text-black hover:text-primary font-bold"
           >
             Pricing
-          </a>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/testimonials"
+            className="text-black hover:text-primary font-bold"
+          >
+            Testimonials
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/integrations"
+            className="text-black hover:text-primary font-bold"
+          >
+            Integrations
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/pricing"
+            className="text-black hover:text-primary font-bold"
+          >
+            Blog
+          </Link>
         </li>
       </ul>
       {/* right: button */}
