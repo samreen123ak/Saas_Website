@@ -19,10 +19,10 @@ export default function PricingSection() {
   ];
 
   return (
-    <section className="py-16 px-6 ">
+    <section id="pricing" className="py-5 px-6 ">
       <div className="max-w-6xl mx-auto text-center" data-aos="fade-up">
         {/* Top Badge */}
-        <button className="px-7 py-1 bg-white rounded-full font-bold text-sm  shadow">
+        <button className="px-7 py-1 bg-white rounded-full font-bold text-sm  shadow hover:shadow-lg">
           Pricing
         </button>
 

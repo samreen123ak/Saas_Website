@@ -66,9 +66,11 @@ const Navbar: React.FC = () => {
       {/* right: button */}
 
       <div>
-        <button className="bg-primary text-white px-4 py-2 rounded-full cursor-pointer ">
-          02036333784
-        </button>
+        <a href="tel:02036333784">
+          <button className="bg-primary text-white px-4 py-2 rounded-full cursor-pointer">
+            02036333784
+          </button>
+        </a>
       </div>
     </nav>
   );

@@ -74,7 +74,7 @@ const BlogSection = () => {
     <div className="space-y-10">
       {/* Hero Section */}
       <div
-        className="bg-gradient-to-b from-blue-100 to-blue-50 py-16 px-6 text-center rounded m-10 shadow transition hover:shadow-lg"
+        className="bg-gradient-to-b from-blue-200 to-blue-50 py-16 px-6 text-center rounded m-10 shadow transition hover:shadow-lg"
         data-aos="fade-up"
       >
         <button className="bg-white  text-xs px-4 py-1 rounded-full font-bold mb-4">

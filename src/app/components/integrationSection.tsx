@@ -20,7 +20,7 @@ const images = [
 
 const IntegrationSection: React.FC = () => {
   return (
-    <section className="py-20 px-6" data-aos="fade-up">
+    <section className="py-5 px-6" data-aos="fade-up">
       {/* Title & Subtitle */}
       <div className="text-center mb-12 max-w-2xl mx-auto">
         <h2 className="text-4xl font-bold mb-4">Partners and Integrations</h2>

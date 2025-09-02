@@ -4,7 +4,7 @@ import React from "react";
 
 export default function CustomerReviews() {
   return (
-    <div className="bg-gradient-to-b from-blue-100 to-blue-50 py-12 px-6 m-10 rounded">
+    <div className="bg-gradient-to-b from-blue-100 to-blue-50 py-5 px-6 m-10 rounded">
       <div className="text-center mb-10" data-aos="fade-up">
         <h2 className="text-3xl font-bold text-gray-800">
           Customers testimonials
