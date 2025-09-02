@@ -17,7 +17,7 @@ const GrowSection: React.FC = () => {
 
         {/* Title */}
         <h2 className="text-4xl  font-bold text-gray-800 mb-4">
-          Let's Grow Your Social Media Together!
+          Let&apos;s Grow Your Social Media Together!
         </h2>
 
         {/* Blue Button */}

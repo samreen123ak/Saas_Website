@@ -99,7 +99,7 @@ export default function PricingSection() {
             <p className="mt-4 text-sm text-gray-500">
               Need more information?{" "}
               <span className="text-primary underline cursor-pointer">
-                Let's chat
+                Let&apos;s chat
               </span>
             </p>
           </div>
@@ -134,7 +134,7 @@ export default function PricingSection() {
             <p className="mt-4 text-sm text-gray-500">
               Need more information?{" "}
               <span className="text-primary underline cursor-pointer">
-                Let's chat
+                Let&apos;s chat
               </span>
             </p>
           </div>
@@ -147,7 +147,7 @@ export default function PricingSection() {
                 <BsStars />
               </div>
             </div>
-            <h3 className="text-xl font-semibold">Let's Talk</h3>
+            <h3 className="text-xl font-semibold">Let&apos;s Talk</h3>
             <p className="text-gray-500 mb-4 text-start">
               Perfect for influencers ,bloggers and freelancer
             </p>

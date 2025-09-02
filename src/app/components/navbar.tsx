@@ -48,10 +48,18 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <Link
-            href="/pricing"
+            href="/blog"
             className="text-black hover:text-primary font-bold"
           >
             Blog
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/contact"
+            className="text-black hover:text-primary font-bold"
+          >
+            Contact
           </Link>
         </li>
       </ul>
@@ -59,7 +67,7 @@ const Navbar: React.FC = () => {
 
       <div>
         <button className="bg-primary text-white px-4 py-2 rounded-full cursor-pointer ">
-          Get Started
+          02036333784
         </button>
       </div>
     </nav>

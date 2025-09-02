@@ -20,11 +20,11 @@ const images = [
 
 const IntegrationSection: React.FC = () => {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6" data-aos="fade-up">
       {/* Title & Subtitle */}
       <div className="text-center mb-12 max-w-2xl mx-auto">
         <h2 className="text-4xl font-bold mb-4">Partners and Integrations</h2>
-        <p className="text-gray-600 text-lg">
+        <p className="text-gray-500 text-sm">
           To streamline your operations, we collaborate with partners who share
           our ambition to simplify business processes. CleanManager can
           integrate with a range of other systems, eliminating the need for

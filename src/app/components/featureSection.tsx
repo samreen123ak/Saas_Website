@@ -24,7 +24,7 @@ const FeaturesSection = () => {
           Connect your tools,connect your team.With over 100 apps already
           available in our directory.
           <br />
-          Your team's favrioute tools are just a click away.
+          Your team&apos;s favrioute tools are just a click away.
         </p>
       </div>
 
