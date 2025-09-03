@@ -1,18 +1,24 @@
-// components/Navbar.tsx
 "use client";
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar: React.FC = () => {
   return (
     <nav
-      className="bg-transparent  pr-5  flex items-center justify-between  "
+      className="bg-transparent pr-5 flex items-center justify-between"
       data-aos="fade-down"
     >
       {/* left: Logo */}
       <div>
-        <img src="/assets/logo.png" alt="" className="h-24 w-24 " />
+        <Image
+          src="/assets/logo.png"
+          alt="Company Logo"
+          width={96} // same as h-24
+          height={96} // same as w-24
+          className="h-24 w-24"
+        />
       </div>
 
       {/* Middle: Navigation Links */}
@@ -63,8 +69,8 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
       </ul>
-      {/* right: button */}
 
+      {/* right: button */}
       <div>
         <a href="tel:02036333784">
           <button className="bg-primary text-white px-4 py-2 rounded-full cursor-pointer">

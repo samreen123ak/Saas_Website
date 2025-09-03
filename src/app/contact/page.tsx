@@ -1,9 +1,8 @@
-import ContactBanner from "../components/contactBanner";
 import ContactSection from "../components/contactSection";
 import Footer from "../components/footerSection";
 import Navbar from "../components/navbar";
 
-export default function () {
+export default function Contact() {
   return (
     <section>
       <Navbar />

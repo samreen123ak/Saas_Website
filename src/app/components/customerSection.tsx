@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export default function CustomerReviews() {
   return (
@@ -22,9 +23,11 @@ export default function CustomerReviews() {
               definitely use their service again.
             </p>
             <div className="flex items-center gap-3 mt-auto">
-              <img
+              <Image
                 src="https://t4.ftcdn.net/jpg/04/31/64/75/360_F_431647519_usrbQ8Z983hTYe8zgA7t1XVc5fEtqcpa.jpg"
                 alt="profile"
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full"
               />
               <div>
@@ -40,9 +43,11 @@ export default function CustomerReviews() {
               Will definitely use their service again.
             </p>
             <div className="flex items-center gap-3 mt-auto">
-              <img
+              <Image
                 src="https://media.gettyimages.com/id/1317804578/photo/one-businesswoman-headshot-smiling-at-the-camera.jpg?s=612x612&w=gi&k=20&c=tFkDOWmEyqXQmUHNxkuR5TsmRVLi5VZXYm3mVsjee0E="
                 alt="profile"
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full"
               />
               <div>
@@ -63,9 +68,11 @@ export default function CustomerReviews() {
               use their service again.
             </p>
             <div className="flex items-center gap-3 mt-auto">
-              <img
+              <Image
                 src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
                 alt="profile"
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full"
               />
               <div>
@@ -82,9 +89,11 @@ export default function CustomerReviews() {
               use their service again.
             </p>
             <div className="flex items-center gap-3 mt-auto">
-              <img
+              <Image
                 src="https://media.gettyimages.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=gi&k=20&c=LsB3LmCoN69U82LEYU78IC2tNwOMjy7LJlmEj30UOSs="
                 alt="profile"
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full"
               />
               <div>
@@ -104,9 +113,11 @@ export default function CustomerReviews() {
               Will definitely use their service again.
             </p>
             <div className="flex items-center gap-3 mt-auto">
-              <img
+              <Image
                 src="https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.jpg?s=612x612&w=0&k=20&c=9zbG2-9fl741fbTWw5fNgcEEe4ll-JegrGlQQ6m54rg="
                 alt="profile"
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full"
               />
               <div>
@@ -122,9 +133,11 @@ export default function CustomerReviews() {
               Will definitely use their service again.
             </p>
             <div className="flex items-center gap-3 mt-auto">
-              <img
+              <Image
                 src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
                 alt="profile"
+                width={40}
+                height={40}
                 className="w-10 h-10 rounded-full"
               />
               <div>

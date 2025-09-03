@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const HeaderImage: React.FC = () => {
   return (
@@ -55,7 +56,7 @@ const HeaderImage: React.FC = () => {
           className="max-w-3xl w-full mt-15 relative rounded"
           data-aos="fade-up"
         >
-          <img
+          <Image
             src="/assets/heroimg.svg"
             alt="TrendTide Analytics Dashboard"
             width={1000}
@@ -85,7 +86,13 @@ const SocialIcon = ({
     data-aos={animation}
     className={`absolute w-14 h-14 bg-white rounded-2xl shadow-lg flex items-center justify-center hover:scale-105 transition-transform cursor-pointer ${className}`}
   >
-    <img src={src} alt={alt} className={`object-contain ${imgClassName}`} />
+    <Image
+      src={src}
+      alt={alt}
+      width={50}
+      height={50}
+      className={`object-contain ${imgClassName}`}
+    />
   </div>
 );
 

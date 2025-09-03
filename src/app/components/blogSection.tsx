@@ -2,6 +2,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 interface BlogPost {
   id: number;
@@ -34,7 +35,7 @@ const blogPosts: BlogPost[] = [
   {
     id: 3,
     image:
-      "https://wordtracker-swoop-uploads.s3.amazonaws.com/uploads/ckeditor/pictures/2927/content_startup.png",
+      "https://www.phoneworld.com.pk/wp-content/uploads/2019/12/how-to-start-a-business-featured-web-final.jpg",
     subtitle: "Startup",
     title: "How to Bootstrap Your Startup",
     author: "Mike Johnson",
@@ -77,7 +78,7 @@ const BlogSection = () => {
         className="bg-gradient-to-b from-blue-200 to-blue-50 py-16 px-6 text-center rounded m-10 shadow transition hover:shadow-lg"
         data-aos="fade-up"
       >
-        <button className="bg-white  text-xs px-4 py-1 rounded-full font-bold mb-4">
+        <button className="bg-white text-xs px-4 py-1 rounded-full font-bold mb-4">
           Our Blog
         </button>
         <h1 className="text-4xl font-bold text-black mb-2">
@@ -109,9 +110,11 @@ const BlogSection = () => {
             key={post.id}
             className="bg-white rounded shadow-md overflow-hidden hover:shadow-lg transition cursor-pointer"
           >
-            <img
+            <Image
               src={post.image}
               alt={post.title}
+              width={500}
+              height={300}
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
@@ -120,7 +123,7 @@ const BlogSection = () => {
                 {post.title}
               </h3>
               <div className="flex justify-between text-xs text-gray-500">
-                <span> by {post.author}</span>
+                <span>by {post.author}</span>
                 <span>{post.date}</span>
               </div>
             </div>

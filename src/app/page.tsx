@@ -4,7 +4,6 @@ import DemoCard from "./components/demoCard/page";
 import FeaturesSection from "./components/featureSection";
 import Footer from "./components/footerSection";
 import GrowSection from "./components/growSection";
-
 import HeaderSection from "./components/headerSection";
 import PricingSection from "./components/pricingSection";
 import TrustedSection from "./components/trustedSection";
